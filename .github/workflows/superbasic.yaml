@@ -5,7 +5,7 @@ on:
 
 jobs:
   basic-job:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps: 
       - name: Clone the repo
         uses: actions/checkout@v4
